@@ -83,7 +83,7 @@ nav .logo {
 }
 .menu ul li {
   display: inline-block;
-  padding: 0 19px;
+  margin: 0 15px;
 }
 .menu ul li a {
   color: #222222;
@@ -105,7 +105,9 @@ button {
   height: 50px;
   background-color: transparent;
   border: 1px solid #ccc;
+  margin-right: 5px;
 }
+
 button li i {
   text-align: left;
 }
@@ -466,6 +468,7 @@ nav .menu li:hover > .sub {
   margin: 0 30px;
   padding: 20px;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 #blog .cartoon img {
   width: 99%;
@@ -493,13 +496,13 @@ nav .menu li:hover > .sub {
   bottom: 0;
   left: 0;
   opacity: 0;
-  transform: scale(0);
-  transition: 0.5s ease;
+  transform: scale(0.9);
+  transition: 0.8s ease;
 }
 
 #blog .cartoon:hover .overlay {
   opacity: 1;
-  transform: scale(1.0002);
+  transform: scale(1);
 }
 #blog .cartoon .overlay span {
   position: absolute;
@@ -546,39 +549,56 @@ footer .footer .icons ul li {
   height: 35px;
   text-align: center;
   line-height: 35px;
-  margin: 0 2px;
+  margin: 0 1px;
 }
 footer .footer .icons ul li i {
   color: black;
 }
-footer .footer .icon {
+footer .icon {
   width: 20%;
+  display: block;
+  margin-top: 30px;
 }
 
 footer .footer .info {
   width: 80%;
-  /* align-items: center;
-  display: block; */
+  display: block;
+  margin-top: 2px;
 }
 footer p {
-  margin: 15px 0;
+  margin: 20px 0;
   font-size: 14px;
   font-weight: 400;
   color: var(--pgclr);
 }
-/* footer .contact {
-  display: block;
-  color: var(--pgclr);
-} */
+footer .contacts {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+footer .lnks {
+  display: inline-block;
+  margin-bottom: 20px;
+}
 footer .links a {
-  margin: 4px 0;
+  margin: 2px 0;
   display: block;
+}
+footer .Filckr {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 footer .stream {
   /* width: 25%; */
-  width: calc(25% - 20px);
-  margin: 10px 20px 10px 0;
+  width: calc(25% - 16px);
+  margin: 6px 8px 6px 0;
 }
+footer .stream img {
+  width: 100%;
+  height: 100%;
+}
+/* footer .stream:hover img {
+  transform: scale(1.0002);
+} */
 /* footer Ends */
 
 #down {
