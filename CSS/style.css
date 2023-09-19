@@ -504,9 +504,6 @@ nav .menu li:hover > .sub {
   opacity: 1;
   transform: scale(1);
 }
-#blog .cartoon .overlay span {
-  position: absolute;
-}
 #blog .cartoon .overlay p {
   margin: 30px 0 20px 20px;
   font-size: 14px;
@@ -523,8 +520,19 @@ nav .menu li:hover > .sub {
   font-weight: 500;
   font-size: 16px;
   margin: 30px 0 20px 20px;
+  position: relative;
 }
-
+#blog .cartoon span i {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 17px;
+  left: 110px;
+  transition: 0.55s ease;
+}
+#blog .cartoon:hover span i {
+  margin-left: 35px;
+}
 /* Blog Ends */
 
 /* footer starts */
@@ -559,7 +567,9 @@ footer .icon {
   display: block;
   margin-top: 30px;
 }
-
+footer .icon i {
+  font-size: 25px;
+}
 footer .footer .info {
   width: 80%;
   display: block;
@@ -575,15 +585,22 @@ footer .contacts {
   display: inline-block;
   margin-bottom: 20px;
 }
-footer .lnks {
-  display: inline-block;
-  margin-bottom: 20px;
-}
-footer .links a {
-  margin: 2px 0;
+
+footer .footer.link ul li a {
+  margin: 20px 0;
   display: block;
+  color: #444;
+  text-transform: capitalize;
+  font-family: var(--opensans);
+  font-weight: 400;
+  font-size: 14px;
+  transition: 0.75s ease;
 }
-footer .Filckr {
+footer .footer.link ul li:hover a {
+  margin-left: 50px;
+  color: var(--navclr);
+}
+a footer .Filckr {
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -595,10 +612,11 @@ footer .stream {
 footer .stream img {
   width: 100%;
   height: 100%;
+  transition: 0.4s;
 }
-/* footer .stream:hover img {
-  transform: scale(1.0002);
-} */
+footer .stream:hover img {
+  transform: scale(1.2);
+}
 /* footer Ends */
 
 #down {
