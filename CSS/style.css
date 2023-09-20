@@ -528,11 +528,11 @@ nav .menu li:hover > .sub {
   color: #fff;
   position: absolute;
   bottom: 17px;
-  left: 110px;
+  right: 166px;
   transition: 0.55s ease;
 }
 #blog .cartoon:hover span i {
-  margin-left: 35px;
+  margin-right: 35px;
 }
 /* Blog Ends */
 
