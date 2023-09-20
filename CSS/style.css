@@ -157,6 +157,7 @@ nav .menu li:hover > .sub {
   display: block;
   padding: 135px 0;
   width: 42%;
+  transition: 0.45s;
 }
 #banner .banner_cnt h3 {
   color: var(--pclr);
