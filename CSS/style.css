@@ -83,13 +83,12 @@ nav .logo {
 }
 .menu ul li {
   display: inline-block;
-  margin: 0 15px;
 }
 .menu ul li a {
   color: #222222;
   font-weight: 500;
   transition: 0.3s;
-  padding: 40px 6px;
+  padding: 40px 15px;
   display: block;
   font-size: 16px;
 }
