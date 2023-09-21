@@ -27,10 +27,10 @@
   <nav>
     <div class="container">
       <div class="row">
-        <div class="logo">
+        <div class="logo" data-aos="fade-right" data-aos-duration="3000">
           <a href="#"><img src="./images/Bizzency.jpg" alt=""></a>
         </div>
-        <div class="menu">
+        <div class="menu" data-aos="fade-left" data-aos-duration="3000">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
@@ -147,7 +147,7 @@
     <div class="container">
       <div class="abril">
         <p>What we do?</p>
-        <h2>Our Services</h2>
+        <h2 id="myElement">Our Frontend Services</h2>
       </div>
       <div class="row">
         <div class="service_card" data-aos="fade-up" data-aos-duration="500">
@@ -210,7 +210,7 @@
     <div class="container">
       <div class="abril">
         <p>What we done before?</p>
-        <h2>Our Portfolio</h2>
+        <h2 id="Element">Our Portfolio</h2>
       </div>
       <div class="row">
         <div class="card">
@@ -248,7 +248,7 @@
         <p>
           What people say?
         </p>
-        <h2>Our Testimonial</h2>
+        <h2 id="ment">Our Testimonial</h2>
       </div>
       <div class="row">
         <div class="testimonial_girl" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="linear">
@@ -291,7 +291,7 @@
         <p>
           What happened recent?
         </p>
-        <h2>Our Latest Blogs</h2>
+        <h2 id="men">Our Latest Blogs</h2>
       </div>
       <div class="row">
         <div class="cartoon">
@@ -345,7 +345,7 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="footer">
+        <div class="footer" data-aos="zoom-in-right" data-aos-duration="2000">
           <img src="./images/Bizzency.jpg" alt="">
           <p>
             Lorem Ipsum is simply dummy text ofing and typesetting industry. Lorem Ipsuasn the industry's standard dummy
@@ -363,7 +363,7 @@
           </div>
         </div>
 
-        <div class="footer">
+        <div class="footer" data-aos="zoom-in-right" data-aos-duration="2000">
           <h3 class="Contacts">Contact Us</h3>
           <div class="row">
             <div class="icon contact">
@@ -393,7 +393,7 @@
             </div>
           </div>
         </div>
-        <div class="footer link">
+        <div class="footer link" data-aos="zoom-in-left" data-aos-duration="2000">
           <h3 class="lnks">Important Links</h3>
           <ul>
             <li><a href="#">Home</a></li>
@@ -403,7 +403,7 @@
             <li><a href="#">Contact us</a></li>
           </ul>
         </div>
-        <div class="footer Filckr">
+        <div class="footer Filckr" data-aos="zoom-in-left" data-aos-duration="2000">
           <h3 class="Filckr">Filckr Stream</h3>
           <div class="row cnt">
             <div class="stream">
@@ -441,12 +441,48 @@
     <div class="container">
       <h4>Copyright 2018 <span>BIZZENCY</span> | All Rights Reserved | Designed By <span>DESIGNER</span></h4>
     </div>
-
   </section>
 
+  <!-- /* Filter Starts here */ -->
+  <section id="filter">
+    <div class="container">
+      <div class="btn_group">
+        <button type="button" data-filter="all">All</button>
+        <button type="button" data-filter=".men">Men</button>
+        <button type="button" data-filter=".women">Women</button>
+        <button type="button" data-filter=".child">Child</button>
+      </div>
+      <div class="wrapper">
+        <div class="mix product men">Men</div>
+        <div class="mix product men">Men</div>
+        <div class="mix product men">Men</div>
+        <div class="mix product men">Men</div>
+        <div class="mix product men">Men</div>
+        <div class="mix product women">Women</div>
+        <div class="mix product women">Women</div>
+        <div class="mix product women">Women</div>
+        <div class="mix product women">Women</div>
+        <div class="mix product women">Women</div>
+        <div class="mix product child">Child</div>
+        <div class="mix product child">Child</div>
+        <div class="mix product child">Child</div>
+        <div class="mix product child">Child</div>
+        <div class="mix product child">Child</div>
+      </div>
+    </div>
+  </section>
+  <!-- /* Filter Starts here */ -->
+
+  <section id="down">
+    <div class="container">
+      <h4>Copyright 2018 <span>BIZZENCY</span> | All Rights Reserved | Designed By <span>DESIGNER</span></h4>
+    </div>
+  </section>
   <script src="./JS/jquery.js"></script>
   <script src="./JS/venobox.min.js"></script>
   <script src="./JS/aos.js"></script>
+  <script src="./JS/vanila.js"></script>
+  <script src="./JS/mixitup.min.js"></script>
   <script src="./JS/app.js"></script>
 </body>
 

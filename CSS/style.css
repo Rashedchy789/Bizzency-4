@@ -628,3 +628,35 @@ footer .stream:hover img {
 #down span {
   color: var(--navclr);
 }
+/* Filter Starts here */
+#filter .product {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-top: 30px;
+}
+#filter .men {
+  background-color: slateblue;
+  text-align: center;
+}
+#filter .women {
+  background-color: red;
+  text-align: center;
+}
+#filter .child {
+  background-color: yellow;
+  text-align: center;
+}
+#filter .btn_group button {
+  border: none;
+  background-color: #ccc;
+}
+/* Filter Ends here */
+#down {
+  padding: 20px 0;
+  text-align: center;
+  color: var(--pgclr);
+}
+#down span {
+  color: var(--navclr);
+}
